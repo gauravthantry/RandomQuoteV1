@@ -10,16 +10,6 @@ div.background{
   padding-bottom: 2%;
 }
 
-.button-prop{
-  /*transformation : translateX(-50%); */
-  display: inline-block;
-  position: center;
-  padding-left : 50%;
-   /*-webkit-transform: translateX(-50%); 
-  -moz-transform: translateX(-50%); 
-  -ms-transform: translateX(-50%); 
-  -o-transform: translateX(-50%); */
-}
 .quote-shape{
   border-radius: 10%;
  
