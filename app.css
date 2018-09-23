@@ -15,6 +15,7 @@ div.background{
   display: inline-block;
   position: relative;
   padding-left : 50%;
+  text-align: center;
    /*-webkit-transform: translateX(-50%); 
   -moz-transform: translateX(-50%); 
   -ms-transform: translateX(-50%); 
