@@ -46,7 +46,13 @@ div.background{
   color: rgb(211,231,132);
 }
 #tweet-prop{
-  display: inline-block;
-  color: rgb(0,0,100);
- 
+  color: rgb(29,161,242);
+}
+
+.twitter-prop{
+text-align: right;
+}
+
+.refresh-prop{
+text-align: left;
 }
