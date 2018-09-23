@@ -10,6 +10,7 @@ div.background{
   padding-bottom: 2%;
 }
 
+
 .quote-shape{
   border-radius: 10%;
  
@@ -47,4 +48,5 @@ div.background{
 #tweet-prop{
   display: inline-block;
   color: rgb(0,0,100);
+ 
 }
