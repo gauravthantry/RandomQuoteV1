@@ -1,0 +1,51 @@
+.position-message{
+  margin-left: 25%;
+  margin-right:25%;
+  margin-top:5%;
+}
+
+div.background{
+  background-color: rgba(245,245,245,0.1);
+  border-radius:10%;
+  padding-bottom: 2%;
+}
+
+.quote-shape{
+  border-radius: 10%;
+ 
+}
+
+#page{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:2%;
+  margin-bottom:2%; 
+  width: 1200px;
+  height: 450px;
+  max-height: 450px;
+  
+}
+#page-background{
+  background-image: url(http://www.wallpapers4u.org/wp-content/uploads/grid_background_line_texture_surface_50781_1920x1080.jpg);
+  text-align: center;
+}
+
+#share {
+        
+        height:30px;
+        width: 80px; 
+      }
+.space-from-quote{
+  padding-top: 2%;
+}
+#quote-form{
+  font-family: monotype corsiva;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(211,231,132);
+}
+#tweet-prop{
+  display: inline-block;
+  color: rgb(0,0,100);
+ 
+}
