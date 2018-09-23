@@ -13,9 +13,8 @@ div.background{
 .button-prop{
   /*transformation : translateX(-50%); */
   display: inline-block;
-  position: relative;
+  position: center;
   padding-left : 50%;
-  text-align: center;
    /*-webkit-transform: translateX(-50%); 
   -moz-transform: translateX(-50%); 
   -ms-transform: translateX(-50%); 
