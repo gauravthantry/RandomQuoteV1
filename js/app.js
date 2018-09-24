@@ -5,6 +5,8 @@ $(document).ready(function() {
     $.getJSON("//quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?", function(key) {
       quoteContent=key[0].content;
       quoteAuthor=key[0].title;
+      quoteContent=quoteContent.replace("<p>","");
+      quoteContent=quoteContent.replace("</p>","");
      content=quoteContent + "<p>— " + quoteAuthor + "</p>";
      
       $("#quote-form").append(content);
