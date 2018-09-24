@@ -12,7 +12,7 @@ $(document).ready(function() {
      
       $("#quote-form").append(content);
       
-   $("#tweet-prop").attr('href','https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text='+encodeURIComponent('"'+quoteContent+'"'+'-'+quoteAuthor));
+   $("#tweet-prop").attr('href','https://twitter.com/intent/tweet?related=freecodecamp&text='+encodeURIComponent('"'+quoteContent+'"'+'-'+quoteAuthor));
     });
     $("#quote-form").css({"font-family":"lucida console", "font-size": "20px","color":"rgb(255,255,150)"});
   
@@ -28,7 +28,7 @@ $(document).ready(function() {
       
       $("#quote-form").html(content);
     $("#quote-form").fadeIn();
-     $("#tweet-prop").attr('href','https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text='+ encodeURIComponent('"'+quoteContent+'"'+'-'+quoteAuthor));
+     $("#tweet-prop").attr('href','https://twitter.com/intent/tweet?related=freecodecamp&text='+ encodeURIComponent('"'+quoteContent+'"'+'-'+quoteAuthor));
     });
     $("#quote-form").css({"font-family":"lucida console", "font-size": "20px","color":"rgb(255,255,150)"});
     
