@@ -7,6 +7,7 @@ $(document).ready(function() {
       quoteAuthor=key[0].title;
       quoteContent=quoteContent.replace("<p>","");
       quoteContent=quoteContent.replace("</p>","");
+      quoteContent=unescape(quoteContent);
      content=quoteContent + "<p>— " + quoteAuthor + "</p>";
      
       $("#quote-form").append(content);
@@ -22,6 +23,7 @@ $(document).ready(function() {
       quoteAuthor=key[0].title;
        quoteContent=quoteContent.replace("<p>","");
       quoteContent=quoteContent.replace("</p>","");
+      quoteContent=unescape(quoteContent);
      content=quoteContent + "<p>— " + quoteAuthor + "</p>";
       
       $("#quote-form").html(content);
